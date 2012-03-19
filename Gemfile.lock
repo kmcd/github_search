@@ -1,0 +1,30 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.2)
+    ansi (1.2.5)
+    crack (0.1.8)
+    git (1.2.5)
+    jeweler (1.6.0)
+      bundler (~> 1.0.0)
+      git (>= 1.2.5)
+      rake
+    rake (0.8.7)
+    rcov (0.9.9)
+    test_declarative (0.0.5)
+    turn (0.8.2)
+      ansi (>= 1.2.2)
+    webmock (1.6.2)
+      addressable (>= 2.2.2)
+      crack (>= 0.1.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.0.0)
+  jeweler (~> 1.6.0)
+  rcov
+  test_declarative
+  turn
+  webmock
