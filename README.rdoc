@@ -1,6 +1,20 @@
 = github_search
 
-Description goes here.
+A wrapper for the github search page http://github.com/search
+
+== Installation
+
+$ gem install github_search
+
+== Usage
+
+$ irb -rrubygems
+
+require 'github_search'
+s = Github::Search.new :type => :user, :query => 'location:UK'
+s.results
+=> [ <Rubyist name=kmcd>, ... ]
+
 
 == Contributing to github_search
  
